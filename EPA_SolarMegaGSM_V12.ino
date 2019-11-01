@@ -5,7 +5,7 @@
 #include "VEDirect.h"
 
 //**********************************************************************************
-// EPAMEDIA Solarcontrol V1.1
+// EPAMEDIA Solarcontrol V1.2
 // Steuerung der Beleuchtung abhängig von Sonnenauf-/Untergang
 // Berechnung des Sonnenauf-/Untergang auf Basis des Längengrads
 // Einstellung des Längegrads mittels DIPSwitch zwisch 9,5-16 Grad
@@ -20,8 +20,8 @@
 // Werte hier anpassen!!!-----------------------------------------------------------
 
 #define withGSMShield true // Version ohne GSM = false mit = true
-#define SWVERSION "V1.1"   // SW Version 
-#define SWVERSIONDS "11"   // SW Version 
+#define SWVERSION "V1.2"   // SW Version 
+#define SWVERSIONDS "12"   // SW Version 
 #define wait4Connection 15 // Wartezeit in Sekunden nach gsm on
 #define LICHT 2   // Pin für Lichtrelais
 #define HEIZUNG 3 // Pin für Heizungsrelais
